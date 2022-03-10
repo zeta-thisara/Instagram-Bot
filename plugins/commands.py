@@ -43,16 +43,15 @@ async def start(bot, cmd):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps'),
-						InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122")
+						InlineKeyboardButton("💃🏼 Developer 💃🏼", url='https://t.me/sthisara'),
+						InlineKeyboardButton("⚡️Updates Channel⚡️", url="https://t.me/sthisara_favorites")
 					],
                     [
-                        InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
-						InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
+                        InlineKeyboardButton("👾Report Errors👾", url="https://t.me/sthisara_favorites_disscussion"),
                     ],
                     [
                         InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin"),
-						InlineKeyboardButton("⚙️Update Channel", url="https://t.me/subin_works")
+						InlineKeyboardButton("⚡️Updates Channel⚡️", url="https://t.me/sthisara_favorites")
 
                     ]
 					
@@ -66,15 +65,15 @@ async def start(bot, cmd):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps'),
-						InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122"),
+						InlineKeyboardButton("💃🏼 Developer 💃🏼", url='https://t.me/sthisara'),
+						InlineKeyboardButton("𝓔𝓹𝓵𝓲𝓼𝓸𝓷", url="https://t.me/eplison_bot"),
 					],
                     [
-                        InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot")
+                        InlineKeyboardButton("👾Report Errors👾", url=" https://t.me/sthisara_favorites_discussion")
                     ],
                     [
                         InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin"),
-						InlineKeyboardButton("⚙️Update Channel", url="https://t.me/subin_works")
+						InlineKeyboardButton("𝓔𝓹𝓵𝓲𝓼𝓸𝓷", url="https://t.me/eplison_bot")
 
                     ]
 					
@@ -91,14 +90,16 @@ async def help(bot, cmd):
 		reply_markup=InlineKeyboardMarkup(
 			[
 				[
-					InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps'),
-					InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122"),
-					InlineKeyboardButton("⚙️Update Channel", url="https://t.me/subin_works")
+						InlineKeyboardButton("💃🏼 Developer 💃🏼", url='https://t.me/sthisara'),
+						InlineKeyboardButton("𝓔𝓹𝓵𝓲𝓼𝓸𝓷", url="https://t.me/eplison_bot"),
+					],
+                    [
+                        InlineKeyboardButton("👾Report Errors👾", url=" https://t.me/sthisara_favorites_discussion")
 					
 				],
 				[
-					InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
-					InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
+					InlineKeyboardButton("λlρhα Mυsιc Plαγεr", url="https://t.me/st_alpha_bot"),
+					InlineKeyboardButton("𝓔𝓹𝓵𝓲𝓼𝓸𝓷", url="https://t.me/eplison_bot")
 				]
 			]
 			)
@@ -113,27 +114,8 @@ async def stop(bot, cmd):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps'),
-						InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122")	
+						InlineKeyboardButton("💃🏼 Developer 💃🏼", url='https://t.me/sthisara'),
+						InlineKeyboardButton("𝓔𝓹𝓵𝓲𝓼𝓸𝓷", url="https://t.me/eplison_bot"),
 					],
                     [
-                        InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
-						InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
-                    ],
-                    [
-                        InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin"),
-						InlineKeyboardButton("⚙️Update Channel", url="https://t.me/subin_works")
-
-                    ]
-					
-				]
-			)
-		)
-		return
-	msg = await bot.send_message(
-		text="Restarting your bot..",
-		chat_id=cmd.from_user.id
-		)
-	await asyncio.sleep(2)
-	await msg.edit("All Processes Stopped and Restarted")
-	os.execl(sys.executable, sys.executable, *sys.argv)
+                        InlineKeyboardButton("👾Report Errors👾", url=" https://t.me/sthisara_favorites_discussion")
