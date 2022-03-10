@@ -45,15 +45,17 @@ async def login(bot, message):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps'),
-						InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122")
-					],
-                    [
-                        InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
-						InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
-                    ],
-                    [
-                        InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin")
+        [
+            InlineKeyboardButton("💃🏼 Developer 💃🏼", url='https://t.me/sthisara'),
+            InlineKeyboardButton("🤖Other Bots", url="https://t.me/sthisara_favorites/6")
+        ],
+        [
+            InlineKeyboardButton("⚡️Updates Channel⚡️", url="https://t.me/sthisara_favorites"),
+            InlineKeyboardButton("⚡️Disscussion Group⚡️", url="https://t.me/sthisara_favorites_disscussion")
+        ],
+        [
+            InlineKeyboardButton("👾Report Errors👾", callback_data="help#subin")
+        ]
 
                     ]
 					
@@ -177,13 +179,17 @@ async def logout(bot, message):
 						InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122")
 					],
                     [
-                        InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
-						InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
-                    ],
-                    [
-                        InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin")
-
-                    ]
+        [
+            InlineKeyboardButton("💃🏼 Developer 💃🏼", url='https://t.me/sthisara'),
+            InlineKeyboardButton("🤖Other Bots", url="https://t.me/sthisara_favorites/6")
+        ],
+        [
+            InlineKeyboardButton("⚡️Updates Channel⚡️", url="https://t.me/sthisara_favorites"),
+            InlineKeyboardButton("⚡️Disscussion Group⚡️", url="https://t.me/sthisara_favorites_disscussion")
+        ],
+        [
+            InlineKeyboardButton("👾Report Errors👾", callback_data="help#subin")
+        ]
 					
 				]
 			)
