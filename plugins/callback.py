@@ -53,13 +53,13 @@ async def cb_handler(bot: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
 			[
 				[
-					InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps'),
-					InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122"),
-                    InlineKeyboardButton("⚙️Update Channel", url="https://t.me/subin_works")
+					InlineKeyboardButton("💃🏼 Developer 💃🏼", url='https://t.me/sthisara'),
+					InlineKeyboardButton("⚡️Updates Channel⚡️", url="https://t.me/sthisara_favorites"),
+                    InlineKeyboardButton("👾Report Errors👾", url="https://t.me/subin_works")
 				],
 				[
-					InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
-					InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
+					InlineKeyboardButton("𝓔𝓹𝓵𝓲𝓼𝓸𝓷 : YT Vɪᴅᴇᴏ & Aᴜᴅɪᴏ Dᴏᴡɴʟᴏᴀᴅᴇʀ Bᴏᴛ", url="https://t.me/eplison_bot"),
+					InlineKeyboardButton("λlρhα : Mυsιc Plαγεr", url="https://t.me/st_alpha_bot")
 				]
 			]
 			)
@@ -200,7 +200,7 @@ async def cb_handler(bot: Client, query: CallbackQuery):
             text_file = open(f"{username}'s followers.txt", "w")
             text_file.write(followers)
             text_file.close()
-            await bot.send_document(chat_id=chat_id, document=f"./{username}'s followers.txt", caption=f"{name}'s followers\n\nA Project By [XTZ_Bots](https://t.me/subin_works)")
+            await bot.send_document(chat_id=chat_id, document=f"./{username}'s followers.txt", caption=f"{name}'s followers\n\nA Devaloped By [𝙕𝙚𝙩𝙖『ζ』](https://t.me/sthisara)")
             os.remove(f"./{username}'s followers.txt")
     
 
@@ -227,7 +227,7 @@ async def cb_handler(bot: Client, query: CallbackQuery):
             text_file = open(f"{username}'s followees.txt", "w")
             text_file.write(followees)
             text_file.close()
-            await bot.send_document(chat_id=chat_id, document=f"./{username}'s followees.txt", caption=f"{name}'s followees\n\nA Project By [XTZ_Bots](https://t.me/subin_works)")
+            await bot.send_document(chat_id=chat_id, document=f"./{username}'s followees.txt", caption=f"{name}'s followees\n\nA Devaloped By [𝙕𝙚𝙩𝙖『ζ』](https://t.me/sthisara)")
             os.remove(f"./{username}'s followees.txt")
 
 
