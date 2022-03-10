@@ -99,14 +99,13 @@ Example: <code>/followers samantharuthprabhuoffl</code>
 <b>Helo, [{}](tg://user?id={})
 
 This is a bot of [{}](www.instagram.com/{}) to manage his Instagram account. 
-I can only work for my master [{}](tg://user?id={}).
-But you can Deploy the same bot for your use from the below source code.
+My master is[{}](tg://user?id={})
 
 Use /help to know What I can Do?</b>
 """
     HOME_TEXT_OWNER = """
 <b>Helo, [{}](tg://user?id={})
-I am your assistant to manage your Instagram account.
+I Adonis.I can help to manage your Instagram account.
 
 Use /help to know what I can do for you.</b>
 """
