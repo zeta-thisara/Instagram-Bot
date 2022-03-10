@@ -52,14 +52,17 @@ async def account(bot, message):
                         
 					],
                     [
-                        InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
-						InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
-                    ],
-                    [
-                        InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin"),
-                        InlineKeyboardButton("⚙️Update Channel", url="https://t.me/subin_works")
-
-                    ]
+        [
+            InlineKeyboardButton("💃🏼 Developer 💃🏼", url='https://t.me/sthisara'),
+            InlineKeyboardButton("🤖Other Bots", url="https://t.me/sthisara_favorites/6")
+        ],
+        [
+            InlineKeyboardButton("⚡️Updates Channel⚡️", url="https://t.me/sthisara_favorites"),
+            InlineKeyboardButton("⚡️Disscussion Group⚡️", url="https://t.me/sthisara_favorites_disscussion")
+        ],
+        [
+            InlineKeyboardButton("👾Report Errors👾", callback_data="help#subin")
+        ]
 					
 				]
 			)
@@ -80,29 +83,17 @@ async def account(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Download My Profile Pic", callback_data=f"ppic#{username}")
-                        
-                    ],
-                    [
-                        InlineKeyboardButton("Download All My Post", callback_data=f"post#{username}"),
-                        InlineKeyboardButton("Download All Tagged Posts", callback_data=f"tagged#{username}")
-                    ],
-                    [
-                        InlineKeyboardButton("Download Posts In My Feed", callback_data=f"feed#{username}"),
-                        InlineKeyboardButton("Download My Saved Posts", callback_data=f"saved#{username}")
-                    ],
-                    [
-                        InlineKeyboardButton("Download My IGTV Posts", callback_data=f"igtv#{username}"),
-                        InlineKeyboardButton("Download My Highlights", callback_data=f"highlights#{username}")
-                    ],
-                    [
-                        InlineKeyboardButton("Download My Stories ", callback_data=f"stories#{username}"),
-                        InlineKeyboardButton("Download Stories of My Followees", callback_data=f"fstories#{username}")
-                    ],
-                    [
-                        InlineKeyboardButton("Get a List Of My Followers", callback_data=f"followers#{username}"),
-                        InlineKeyboardButton("Get a List Of My Followees", callback_data=f"followees#{username}")
-                    ]
+        [
+            InlineKeyboardButton("💃🏼 Developer 💃🏼", url='https://t.me/sthisara'),
+            InlineKeyboardButton("🤖Other Bots", url="https://t.me/sthisara_favorites/6")
+        ],
+        [
+            InlineKeyboardButton("⚡️Updates Channel⚡️", url="https://t.me/sthisara_favorites"),
+            InlineKeyboardButton("⚡️Disscussion Group⚡️", url="https://t.me/sthisara_favorites_disscussion")
+        ],
+        [
+            InlineKeyboardButton("👾Report Errors👾", callback_data="help#subin")
+        ]
 
                 ]
                 )
