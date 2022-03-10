@@ -120,19 +120,18 @@ async def _insta_post_batch(bot, message):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps'),
-						InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122"),
-                        
-					],
-                    [
-                        InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
-						InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
-                    ],
-                    [
-                        InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin"),
-                        InlineKeyboardButton("⚙️Update Channel", url="https://t.me/subin_works")
-
-                    ]
+					[
+        [
+            InlineKeyboardButton("💃🏼 Developer 💃🏼", url='https://t.me/sthisara'),
+            InlineKeyboardButton("🤖Other Bots", url="https://t.me/sthisara_favorites/6")
+        ],
+        [
+            InlineKeyboardButton("⚡️Updates Channel⚡️", url="https://t.me/sthisara_favorites"),
+            InlineKeyboardButton("⚡️Disscussion Group⚡️", url="https://t.me/sthisara_favorites_disscussion")
+        ],
+        [
+            InlineKeyboardButton("👾Report Errors👾", callback_data="help#subin")
+        ]
 					
 				]
 			)
@@ -215,21 +214,17 @@ async def _insta_post_batch(bot, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Profile Pic", callback_data=f"ppic#{username}")
-                        ],
-                        [
-                            InlineKeyboardButton("All Post", callback_data=f"post#{username}"),
-                            InlineKeyboardButton("All Tagged Posts", callback_data=f"tagged#{username}")
-                        ],
-                        [
-                            InlineKeyboardButton("All IGTV", callback_data=f"igtv#{username}"),
-                            InlineKeyboardButton("Stories ", callback_data=f"stories#{username}"),
-                            InlineKeyboardButton("Highlights", callback_data=f"highlights#{username}")
-                        ],
-                        [
-                            InlineKeyboardButton(f"{name}'s Followers", callback_data=f"followers#{username}"),
-                            InlineKeyboardButton(f"{name}'s Followees", callback_data=f"followees#{username}")
-                        ]
+        [
+            InlineKeyboardButton("💃🏼 Developer 💃🏼", url='https://t.me/sthisara'),
+            InlineKeyboardButton("🤖Other Bots", url="https://t.me/sthisara_favorites/6")
+        ],
+        [
+            InlineKeyboardButton("⚡️Updates Channel⚡️", url="https://t.me/sthisara_favorites"),
+            InlineKeyboardButton("⚡️Disscussion Group⚡️", url="https://t.me/sthisara_favorites_disscussion")
+        ],
+        [
+            InlineKeyboardButton("👾Report Errors👾", callback_data="help#subin")
+        ]
                     ]
                 )
             await m.delete()
